@@ -119,13 +119,9 @@ console.log('Hello World');
 Rajesh | Ramesh | Suresh | Mahesh|
 -------|--------|--------|-------|
 S.S.C  | S.S.C  | S.S.C  | S.S.C |
--------|--------|--------|-------|
 Inter  | Inter  | Inter  | Inter |
--------|--------|--------|-------|
 B.sc   | B.tech | B.com  | ---   |
--------|--------|--------|-------|
 M.sc   | M.tech | ---    | ---   |
--------|--------|--------|-------|
 
 -----------------------------------------------------
 
@@ -173,7 +169,7 @@ command-touch filename.extension
 command-git status
 ~~~
 
-## Adding the files in gitbash
+## Adding the files in git bash
 
 ~~~
 command-git add filename.extension
@@ -191,6 +187,42 @@ command-git add .
 command-git rm --cached filename.extension
 ~~~
 
+## Comminting file in git
+
+~~~
+command-git commit -m "Type your comitted message"
+~~~
+
+## Check the remote in git
+
+~~~
+command-git remote
+~~~
+
+## Adding the remote in git
+
+~~~
+command-git remote add origin "Enter your github repository url"
+~~~
+
+## Removing the Remote in git
+
+~~~
+command-git remote rm origin
+~~~
+
+## Push the files on git
+
+~~~
+command-git push origin master
+~~~
+
+## Cloning the project
+
+~~~
+command-git clone "Paste the project url"
+~~~
+
 ## Make Directory
 ~~~
 command-mkdir
@@ -200,6 +232,12 @@ command-mkdir
 
 ~~~
 command-Cd
+~~~
+
+## Back to main Directory
+
+~~~
+command-cd ..
 ~~~
 
 ## Present Working Directory
